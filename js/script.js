@@ -5,7 +5,7 @@ var saveNotif = $('<h3>');
 
 
 $(document).ready(function() { 
-  var today = function(){return dayjs().format('DD/MM/YYYY')};
+var today = function(){return dayjs().format('DD/MM/YYYY')};
 document.getElementById("currentDay").innerText=today();
 var currentHour = dayjs().format('h:mm:ss a');
 var now = dayjs().hour();
